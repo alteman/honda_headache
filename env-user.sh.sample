@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Copy this file to env-user.sh and change paths to point to your local Android SDK and NDK directories
+
+# Add Android SDK platform-tools dir to path
+export PATH=/path/to/android/sdk/platform-tools/:$PATH
+
+# Add Android NDK dir to path
+export PATH=/path/to/android/ndk/:$PATH
